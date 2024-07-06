@@ -19,4 +19,4 @@ def vigenere(message, key, direction):
             new_index = (index + offset*direction) % len(alphabet)
             final_message += alphabet[new_index]
     
-    return encrypted_text
+    return final_message
